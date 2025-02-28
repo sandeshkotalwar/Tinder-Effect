@@ -68,7 +68,7 @@ let users=[
            }],
         bio: 'Lorem elit Placeat quisquam provident quaerat quidem aspernatur ex!',
         isFriend: null
-    },
+    }
 ];
 
 let curr = 0;
