@@ -82,11 +82,11 @@ function setData(index){
     select(".prfimg img").src = users[index].profilePic;
     select(".badge h5").textContent = users[index].pendingMessage;
     select(".location h3").textContent = users[index].location;
-    select(".name h1:nth-child(1)").textContent =users[index].name
-    select(".name h1:nth-child(2)").textContent =users[index].age
+    select(".name h1:nth-child(1)").textContent =users[index].name;
+    select(".name h1:nth-child(2)").textContent =users[index].age;
 
     let clutter="";
-    users[curr].intrests.forEach(function(intrest){
+    users[index].intrests.forEach(function(intrest){
         clutter += `<div class="tag flex items-center bg-white/30 px-3 py-1 rounded-full gap-3">
         ${intrest.icon}
         <h3 class="text-sm tracking-tight capitalize">${intrest.intrest}</h3>
